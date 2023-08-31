@@ -297,7 +297,6 @@ html {
     background-color: var(--color-red-darker);
 }
 
-
 .app-logo {
     border-radius: var(--border-radius-soft);
     height: 32px;
@@ -328,19 +327,13 @@ html {
     width: 66%;
 }
 
-
 .modal-overlay {
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(0, 0, 0, .20);
  }
 
 .modal-wrapper {
     background-color: var(--color-neutral-0);
     border-radius: var(--border-radius-soft);
-    box-shadow: var(--shadow-xl);
-    max-height: 100%;
-    max-width: 500px;
-    width: 100%;
-    -servicestudio-margin: 0 auto;
 }
 
 .modal-close a, 
@@ -376,27 +369,17 @@ html {
 }
 
 .tabs .tabs-content {
-    padding: var(--space-m) var(--space-none);
+    padding: 30px;
 }
 
 /* ================================================================ */
 /*  $6.2 - Styles - Colors                                          */
 /* ================================================================ */
 
-/* $6.2.1 - Styles - Colors - Brand */
-.background-primary { background-color: var(--color-primary); }
-.background-secondary { background-color: var(--color-secondary); }
 .background-complementary { background-color: var(--color-complementary) }
-
-.text-primary { color: var(--color-primary); }
-.text-secondary { color: var(--color-secondary); }
 .text-complementary { color: var(--color-complementary); }
 
 /* ================================================================ */
 /*  $6.4 - Styles - Border Radius                                   */
 /* ================================================================ */
-.border-radius-none { border-radius: var(--border-radius-none); }
-.border-radius-soft { border-radius: var(--border-radius-soft); }
 .border-radius-hard { border-radius: var(--border-radius-hard); }
-.border-radius-rounded { border-radius: var(--border-radius-rounded); }
-.border-radius-circle { border-radius: var(--border-radius-circle); }
