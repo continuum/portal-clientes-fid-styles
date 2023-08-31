@@ -298,62 +298,11 @@ html {
 }
 
 
-/* ================================================================ */
-/*  $3.1 - Page Layout - Header                                     */
-/* ================================================================ */
-
-.layout .header {
-    background-color: var(--color-neutral-0);
-    box-shadow: 0 1px 5px 0 rgba(21, 24, 26, .1);
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 100;
-}
-
-.layout.layout-side .navigation {
-    background-color: var(--color-neutral-0);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-       -ms-flex-direction: column;
-           flex-direction: column;
-    height: 100vh;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: var(--side-menu-size);
-    z-index: 101;
-}
-
 .app-logo {
     border-radius: var(--border-radius-soft);
     height: 32px;
     margin-right: var(--space-s);
     width: 32px;
-}
-
-.menu-icon {
-    -webkit-box-align: center;
-       -ms-flex-align: center;
-          align-items: center;
-    color: var(--color-neutral-10);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    display: none;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-       -ms-flex-direction: column;
-           flex-direction: column;
-    -webkit-box-pack: center;
-       -ms-flex-pack: center;
-     justify-content: center;
-    margin-right: var(--space-m);
-    width: 24px;
 }
 
 .card {
@@ -429,7 +378,6 @@ html {
 .tabs .tabs-content {
     padding: var(--space-m) var(--space-none);
 }
-
 
 /* ================================================================ */
 /*  $6.2 - Styles - Colors                                          */
